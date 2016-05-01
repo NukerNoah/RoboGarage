@@ -89,7 +89,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
-      sound = { filename = "__RoboGarage__/sound/robo-garage-working.ogg", volume = 0.6 },
+      sound = { filename = "__base__/sound/robo-garage-working.ogg", volume = 0.6 },
       max_sounds_per_type = 3,
       audible_distance_modifier = 0.5,
       probability = 1 / (5 * 60) -- average pause between the sound is 5 seconds
@@ -115,14 +115,14 @@ data:extend({
     {
       {
         type = "play-sound",
-        sound = { filename = "__RoboGarage__/sound/robo-garage-door.ogg", volume = 1.2 }
+        sound = { filename = "__base__/sound/robo-garage-door.ogg", volume = 1.2 }
       },
     },
     close_door_trigger_effect =
     {
       {
         type = "play-sound",
-        sound = { filename = "__RoboGarage__/sound/robo-garage-door.ogg", volume = 0.75 }
+        sound = { filename = "__base__/sound/robo-garage-door.ogg", volume = 0.75 }
       },
     },
   }
