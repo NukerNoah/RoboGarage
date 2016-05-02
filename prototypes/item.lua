@@ -2,7 +2,7 @@ data:extend({
 	{
     type = "item",
     name = "robo-garage",
-    icon = "__base__/graphics/icons/roboport.png",
+    icon = "__RoboGarage__/graphics/icons/robo-garage.png",
     flags = {"goes-to-quickbar"},
     subgroup = "logistic-network",
     order = "c[signal]-b[roboport]",
@@ -11,11 +11,21 @@ data:extend({
 	},
   {
     type = "item",
+    name = "roboport",
+    icon = "__RoboGarage__/graphics/icons/roboport.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistic-network",
+    order = "c[signal]-a[roboport]",
+    place_result = "roboport",
+    stack_size = 5
+  },
+  {
+    type = "item",
     name = "mini-logistic-robot",
     icon = "__RoboGarage__/graphics/icons/mini-logistic-robot.png",
     flags = {"goes-to-quickbar"},
     subgroup = "logistic-network",
-    order = "a[robot]-a[logistic-robot]",
+    order = "a[robot]-a[mini-logistic-robot]",
     place_result = "mini-logistic-robot",
     stack_size = 50
   },
@@ -25,8 +35,28 @@ data:extend({
     icon = "__RoboGarage__/graphics/icons/mini-construction-robot.png",
     flags = {"goes-to-quickbar"},
     subgroup = "logistic-network",
-    order = "a[robot]-b[construction-robot]",
+    order = "a[robot]-b[mini-construction-robot]",
     place_result = "mini-construction-robot",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "logistic-robot",
+    icon = "__RoboGarage__/graphics/icons/logistic-robot.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistic-network",
+    order = "a[robot]-c[logistic-robot]",
+    place_result = "logistic-robot",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "construction-robot",
+    icon = "__RoboGarage__/graphics/icons/construction-robot.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistic-network",
+    order = "a[robot]-d[construction-robot]",
+    place_result = "construction-robot",
     stack_size = 50
   }
 })
