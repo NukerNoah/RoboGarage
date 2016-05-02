@@ -14,6 +14,19 @@ data:extend({
   },
   {
     type = "recipe",
+    name = "roboport",
+    enabled = false,
+    ingredients =
+    {
+      {"robo-garage", 4},
+      {"copper-cable", 180},
+      {"plastic-bar", 90}
+    },
+    result = "roboport",
+    energy_required = 15
+  },
+  {
+    type = "recipe",
     name = "mini-logistic-robot",
     enabled = false,
     ingredients =
