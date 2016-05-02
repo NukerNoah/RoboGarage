@@ -35,11 +35,11 @@ data:extend({
 	{
 	  {
         type = "unlock-recipe",
-        recipe = "construction-robot"
+        recipe = "mini-construction-robot"
       },
 	  {
         type = "unlock-recipe",
-        recipe = "logistic-robot"
+        recipe = "mini-logistic-robot"
       }
 	},
 	prerequisites = {"electric-engine", "advanced-electronics"},
