@@ -303,7 +303,7 @@ data:extend({
       frame_count = 1,
       shift = {0.015625, -0.09375},
       direction_count = 16,
-      y = 72
+      y = 84
     },
     in_motion_with_cargo =
     {
